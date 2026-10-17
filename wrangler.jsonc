@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hassan-gpt-61-sol",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "ai": {
+    "binding": "AI"
+  }
+}
